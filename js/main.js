@@ -52,15 +52,14 @@ btn1.addEventListener("click", () => {
 // });
 
 // !#17
-// let allH = document.querySelectorAll("h4");
-// allH.forEach((item) => {
-//   item.addEventListener("click", (e) => {
-//     let num = Number(item.textContent);
-//     console.log(num);
-//     let square = num ** 2;
-//     item.textContent = square;
-//   });
-// });
+// let inp1 = document.querySelector("#fname");
+// let inp2 = document.querySelector("#lname");
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", () => {
+//  if (!inp1.value.trim() || !inp2.value.trim()) {
+//    alert("Оба поля должны быть заполнены!");
+  }
+});
 // !#19
 // let inputElement = document.createElement("input");
 // inputElement.setAttribute("type", "text");
